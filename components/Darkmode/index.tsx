@@ -20,7 +20,7 @@ function DarkMode(props: IDarkMode) {
    */
   return (
     <div className={styles.darkmodeWrapper}>
-      <Button variant="primary" onPress={switchMode} isQuiet>
+      <Button variant="primary" onPress={switchMode}  isQuiet>
         { theme === 'dark'
           ? <Light aria-label="Go to light mode"/>
           : <Moon aria-label="Go to dark mode"/>
